@@ -1,0 +1,5 @@
+hours = input("How many hours a day do you work? ")
+rate = input("How much is your hourly wage?")
+type(hours)
+pay = float(hours) * float(rate)
+print("Your pay is ", pay, "won")
