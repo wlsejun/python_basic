@@ -37,3 +37,5 @@ myName = "Lisa"
 myAge = "27"
 me = myName + myAge
 print("I'm", me)
+
+I'm Lisa 27
