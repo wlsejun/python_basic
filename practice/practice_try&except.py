@@ -12,8 +12,8 @@ print("Done", int_name)
 # ============현실적인 예시============
 user_num = input("enter your phone number :")
 try:
-    num = int(user_num)
-except:
+    num = int(user_num) 
+except:                #예외발생 시 실행
     num = -1
 if num > 0:
     print("your number is", num)
