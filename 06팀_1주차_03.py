@@ -39,3 +39,14 @@ me = myName + myAge
 print("I'm", me)
 
 I'm Lisa 27
+
+# -------------nameerror----------------
+name = a
+num = 9
+print(day)
+# -------------zerodivision error-------------
+a = 9 / 0
+print(a)
+# -------------ndex error-------------
+a = ['b', 'c']
+a['d']
