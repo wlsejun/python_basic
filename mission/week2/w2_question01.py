@@ -32,6 +32,6 @@ elif std_score >= 64 :
 else :
     grade = 'F'
 
-print('Hello', name, 'your score :', score, 'grade :', grade)
+print('학생이름 : ', name, '점수 :', score, '학점 :', grade)
 
 
