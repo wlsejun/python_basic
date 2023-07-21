@@ -3,35 +3,38 @@
 # 3. 해당 점수범위에 맞는 학점을 출력한다.
 # 4. 학생이름, 점수, 학점을 출력한다.
 
-name = input('What your name?')
+
+""" name = input('What your name?')
 score = input('Enter your score :')
 
 try:
     std_score = float(score)
 except:
-    print('Not a number')
+    print('Not a number') """
 
-if std_score > 100 :
-    print('Invalid value')
-elif std_score >= 95 :
-    grade = 'A+'
-elif std_score >= 94 :
-    grade = 'A'
-elif std_score >= 89 :
-    grade = 'B+'
-elif std_score >= 84 :
-    grade = 'B'
-elif std_score >= 79 :
-    grade = 'C+'
-elif std_score >= 74 :
-    grade = 'C'
-elif std_score >= 69 :
-    grade = 'D+'
-elif std_score >= 64 :
-    grade = 'D'
-else :
-    grade = 'F'
+def grader(name, std_score) :
 
-print('학생이름 : ', name, '점수 :', score, '학점 :', grade)
+    if std_score > 100 :
+        print('Invalid value')
+    elif std_score >= 95 :
+        grade = 'A+'
+    elif std_score >= 94 :
+        grade = 'A'
+    elif std_score >= 89 :
+        grade = 'B+'
+    elif std_score >= 84 :
+        grade = 'B'
+    elif std_score >= 79 :
+        grade = 'C+'
+    elif std_score >= 74 :
+        grade = 'C'
+    elif std_score >= 69 :
+        grade = 'D+'
+    elif std_score >= 64 :
+        grade = 'D'
+    else :
+        grade = 'F'
 
+    print('학생이름 : ', name, '점수 :', std_score, '학점 :', grade)
 
+grader('김세준', 99)
