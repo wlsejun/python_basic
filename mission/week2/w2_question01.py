@@ -35,6 +35,6 @@ def grader(name, std_score) :
     else :
         grade = 'F'
 
-    print('학생이름 : ', name, '점수 :', std_score, '학점 :', grade)
+    print('학생이름 : ', name, '\n', '점수 :', std_score, '\n', '학점 :', grade)
 
 grader('김세준', 99)

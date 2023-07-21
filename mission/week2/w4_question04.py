@@ -15,21 +15,21 @@ else :
 user = input('가위 바위 보 입력해주세요 : ')
 
 if computer == user :
-    print('나 :', user, '컴퓨터 : ', computer,  '비겼습니다.')
+    print('나 :', user, '\n', '컴퓨터 : ', computer,  '\n', '비겼습니다.')
 else :
     if computer == '가위' :
         if user == '바위' :
-            print('나 :', user, '컴퓨터 : ', computer, '나 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '나 승리!')
         elif user == '보' :
-            print('나 :', user, '컴퓨터 : ', computer, '컴퓨터 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '컴퓨터 승리!')
     if computer == '바위' :
         if user == '보' :
-            print('나 :', user, '컴퓨터 : ', computer, '나 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '나 승리!')
         elif user == '가위' :
-            print('나 :', user, '컴퓨터 : ', computer, '컴퓨터 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '컴퓨터 승리!')
     if computer == '보' :
         if user == '가위' :
-            print('나 :', user, '컴퓨터 : ', computer, '나 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '나 승리!')
         elif user == '바위' :
-            print('나 :', user, '컴퓨터 : ', computer, '컴퓨터 승리!')
+            print('나 :', user, '\n', '컴퓨터 : ', computer, '\n', '컴퓨터 승리!')
     

@@ -28,4 +28,4 @@ else :
 
 yearly_payment = monthly_payment - tax
 
-print('세전연봉 :', monthly_payment, '세후연봉 :', yearly_payment)
+print('세전연봉 :', monthly_payment, '\n', '세후연봉 :', yearly_payment)

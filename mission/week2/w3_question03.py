@@ -29,5 +29,5 @@ try:
 except:
     print('Invalid value')
 
-print('나이 :', age, '지불유형 :', pay, '버스요금 :', cost)
+print('나이 :', age, '\n', '지불유형 :', pay, '\n', '버스요금 :', cost)
 
