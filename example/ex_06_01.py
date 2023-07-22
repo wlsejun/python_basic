@@ -4,3 +4,5 @@ for line in fhand :
     line = line.rstrip()
     if line.startswith('This') :
         print(line)
+
+print('happy₩nnew₩nyear')
