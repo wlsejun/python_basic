@@ -1,16 +1,16 @@
 # 1. 학생의 이름과 점수를 입력 받는다.
-# 2. if문을 사용하여 점수 범위를 나눈다.
+# 2. grader 함수를 만들고 if문을 사용하여 점수 범위를 나눈다.
 # 3. 해당 점수범위에 맞는 학점을 출력한다.
 # 4. 학생이름, 점수, 학점을 출력한다.
 
 
-""" name = input('What your name?')
+name = input('What your name?')
 score = input('Enter your score :')
 
 try:
     std_score = float(score)
 except:
-    print('Not a number') """
+    print('Not a number')
 
 def grader(name, std_score) :
 
@@ -37,4 +37,4 @@ def grader(name, std_score) :
 
     print('학생이름 : ', name, '\n', '점수 :', std_score, '\n', '학점 :', grade)
 
-grader('김세준', 99)
+grader(name, std_score)
