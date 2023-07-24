@@ -1,4 +1,4 @@
-""" friends = ['yonghou', 2, 'hyejin']
+friends = ['yonghou', 2, 'hyejin']
 
 for i in range(len(friends)):
     friend = friends[i]
@@ -15,7 +15,7 @@ print(range(4))
 print(range(len(friends)))
 
 for i in range(3):
-    print(i) """
+    print(i)
 
 stuff = list()
 stuff.append('book')
@@ -48,3 +48,28 @@ while True :
 
 average = sum(numlist) / len(numlist)
 print('avarage :', average)
+
+#split
+truth = 'God is Good all the time'
+word = truth.split()
+print(word)
+
+truth = 'God / is / good'
+word = truth.split('/')
+print(word)
+
+
+fhand = open('파일명')
+for line in fhand :
+    line = line.rstrip()
+    if not line.startswith('From') :
+        continue
+    words = line.split()
+    print(words[2])
+
+
+line = 'From sjgood97@naver.com Sat Jul 24 09:14:33 2023'
+words = line.split()
+email = words[1].split('@')
+print(email)
+
