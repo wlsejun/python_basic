@@ -1,4 +1,4 @@
-fhand = open('./example/py4e.com_code3_mbox-short.txt')
+""" fhand = open('./example/py4e.com_code3_mbox-short.txt')
 
 for line in fhand :
     line = line.rstrip()
@@ -8,5 +8,6 @@ for line in fhand :
     #print('words : ', wds)
     if len(wds) < 3 or wds[0] != 'From' :
         continue
-    print(wds[1])
+    print(wds[1]) """
 
+lists = list()
