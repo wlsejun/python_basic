@@ -6,28 +6,33 @@ age = int(input('나이를 입력해주세요 :'))
 pay = input('현금/카드 중 지불 방법을 입력해주세요 :')
 
 try:
-    if age < 8 :
-        cost = '무료'
-    elif 8 <= age < 14 :
-        if pay == '현금' :
-            cost = 450
-        elif pay == '카드' :
-            cost = 450
-    elif 14 <= age < 20 :
-        if pay == '현금' :
-            cost = 720
-        elif pay == '카드' :
-            cost = 1000
-    elif 20 <= age < 75 :
-        if pay == '현금' :
-            cost = 1200
-        elif pay == '카드' :
-            cost = 1300
-    else :
-        cost = '무료'
+
+    def busfare(age, pay) :
+        if age < 8 :
+            cost = '무료'
+        elif 8 <= age < 14 :
+            if pay == '현금' :
+                cost = 450
+            elif pay == '카드' :
+                cost = 450
+        elif 14 <= age < 20 :
+            if pay == '현금' :
+                cost = 720
+            elif pay == '카드' :
+                cost = 1000
+        elif 20 <= age < 75 :
+            if pay == '현금' :
+                cost = 1200
+            elif pay == '카드' :
+                cost = 1300
+        else :
+            cost = '무료'
+
+        print('나이 :', age, '\n', '지불유형 :', pay, '\n', '버스요금 :', cost)
 
 except:
     print('Invalid value')
 
-print('나이 :', age, '\n', '지불유형 :', pay, '\n', '버스요금 :', cost)
+busfare(age, pay)
+
 
